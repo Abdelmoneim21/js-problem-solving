@@ -17,4 +17,4 @@ function highAndLow(numbers) {
   return `${highest} ${smallest}`;
 }
 
-console.log(highAndLow("8 3 -5 42 -1 0 0 -9 4 7 4 -4"));
+console.log(highAndLow("8 3 -5 40 0 -9 4 7 4 -4"));
