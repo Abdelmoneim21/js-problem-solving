@@ -22,9 +22,9 @@
 var maxChunksToSorted = function (arr) {
   let sorted = arr.sort();
   let sliced = [];
-  for (let i = 0; i < arr.length; i ++) {
+  for (let i = 0; i < arr.length; i++) {
     sliced.push(arr.slice(i, i + 1));
   }
   return sorted == Array.from(sliced.join("")).map((x) => Number(x));
 };
-console.log(maxChunksToSorted([1, 0, 2, 3, 4]));
+console.log(maxChunksToSorted([1, 0, 4]));
